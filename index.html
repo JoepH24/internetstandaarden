@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burn-out Bartje</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Burn-out Bartje</h1>
 
-    <img id="bartje" class="bartje" src="/images/1neutraal.jpg" alt="Bartje">
+    <img id="bartje" class="bartje" src="images/1neutraal.jpg" alt="Bartje">
 
     <p>Hopeloosheid: <span id="motivatie">0</span></p> 
     <p>Vermoeidheid: <span id="energie">0</span></p>
@@ -21,16 +21,15 @@
     <button>Pauze!</button> 
     <button>Vreten!</button> 
     <br>
-    <button class="muziek-knop" onclick="toggleMusic()">🎵 Muziek aan/uit</button>
+    <button class="muziek-knop" onclick="toggleMusic()">Muziek</button>
     
+    <audio id="koffieAudio" src="sounds/koffie.mp3"></audio>
+    <audio id="etenAudio" src="sounds/eten.mp3"></audio>
+    <audio id="pauzeAudio" src="sounds/pauze.mp3"></audio>
 
-    <audio id="koffieAudio" src="/sounds/koffie.mp3"></audio>
-    <audio id="etenAudio" src="/sounds/eten.mp3"></audio>
-    <audio id="pauzeAudio" src="/sounds/pauze.mp3"></audio>
+    <audio id="backgroundMusic" src="sounds/background.mp3" autoplay loop muted></audio>
 
-    <audio id="backgroundMusic" src="/sounds/background.mp3" autoplay loop muted></audio>
-
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
