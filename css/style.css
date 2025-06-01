@@ -1,0 +1,84 @@
+/* css/style.css */
+body {
+    background-image: url("/images/office.jpg"); /* pas dit aan naar jouw bestandsnaam */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif; /* Standaard font voor de body */
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+    /* Semi-transparante laag voor leesbaarheid */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Press Start 2P', cursive; /* Crazy game font voor h1 */
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#bartje {
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 12px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    font-family: 'Bangers', sans-serif; /* Gebruik Bangers voor p tekst */
+}
+
+span {
+    font-weight: bold;
+    color: #ffda7c;
+}
+
+button {
+    background-color: #f3cdabde;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-family: 'Bangers', sans-serif; /* Gebruik Bangers voor knoppen */
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #ffc592de;
+    transform: scale(1.05);
+}
+
+.muziek-knop {
+    font-size: 0.8em;
+    padding: 8px 16px;
+    margin-top: 20px;
+    background-color: #f3cdabde;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.muziek-knop:hover {
+    background-color: #ffc592de;
+    transform: scale(1.05);
+}
